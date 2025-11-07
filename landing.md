@@ -1,6 +1,6 @@
 ---
-title: Landing
-layout: Emotions in human-machine conversations. A communicative approach.
+layout: landing
+title: Emotions in human-machine conversations. A communicative approach.
 description: 'A project about humans, machines, emotions and what that has to do with communication.'
 image: assets/images/pic07.jpg
 nav-menu: true
