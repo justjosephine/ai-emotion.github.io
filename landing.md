@@ -1,7 +1,7 @@
 ---
 title: Landing
-layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
+layout: Emotions in human-machine conversations. A communicative approach.
+description: 'A project about humans, machines, emotions and what that has to do with communication.'
 image: assets/images/pic07.jpg
 nav-menu: true
 ---
@@ -13,9 +13,9 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Sed amet aliquam</h2>
+			<h2>The project</h2>
 		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+		<p>Generative AI (GAI) is now widely used across many areas of society. Due to low access barriers it enables users to try out various GAI applications and actively participate in creative processes. Interaction with an agent that exhibits anthropomorphic characteristics is perceived not only as low-threshold, but also as stimulating and intuitive. In the course of such human-AI interactions, there is a (sometimes unconscious) adaptation to the logic of AI systems. In co-creation processes, they adopt not only AI-generated outputs but also the implicit cultural, normative or stylistic assumptions embedded within them, contributing to the emergence of new forms of expression and communication practices. Since technologies are never neutral but always embedded in social and cultural contexts and influence existing power relations, a communication technology such as generative AI reshapes the relationship between humans, creativity, communication and reality. Emotions play a central role in this process, as they structure information exchange, mutual understanding and meaning-making. This project therefore examines how emotions are expressed in interactions with AI chatbots and how these interactions contribute to new social and cultural conditions for emotional communication.</p>
 	</div>
 </section>
 
@@ -28,7 +28,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Orci maecenas</h3>
+					<h3>The theory</h3>
 				</header>
 				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 				<ul class="actions">
@@ -44,7 +44,7 @@ nav-menu: true
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Rhoncus magna</h3>
+					<h3>The methodology</h3>
 				</header>
 				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 				<ul class="actions">
