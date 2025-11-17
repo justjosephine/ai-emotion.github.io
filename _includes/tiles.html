@@ -11,6 +11,7 @@
 {%- endif -%}
 
 <section id="one" class="tiles">
+  <!-- Featured oben -->
   <article class="featured">
     <span class="image">
       <img src="{{ featured.image }}" alt="{{ featured.title }}" />
@@ -21,6 +22,7 @@
     </header>
   </article>
 
+  <!-- zwei weitere Tiles -->
   {%- assign max_rest = site.tiles-count | minus: 1 -%}
   {%- assign shown = 0 -%}
   {%- for tile in tiles -%}
