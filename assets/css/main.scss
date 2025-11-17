@@ -80,43 +80,24 @@
 	@import 'layout/menu';
 
 
-/* Featured Tile oben über die volle Breite */
+/* Featured-Tile full width im bestehenden Flex-Layout */
 .tiles article.featured {
-  grid-column: 1 / -1;
+  width: 100% !important;     /* über beide Spalten */
+  flex: 0 0 100% !important;  /* falls das Theme via flex-basis steuert */
 }
+
+/* Bild sauber skalieren */
 .tiles article .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Basis: 2-spaltiges Grid für Tiles auf Desktop */
+/* Optional: Höhe des großen Tiles begrenzen (anpassbar) */
 @media screen and (min-width: 980px) {
-  .tiles {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    grid-gap: 2rem; /* Abstand nach Geschmack */
-  }
-
-  /* Featured-Artikel über beide Spalten */
-  .tiles > article.featured {
-    grid-column: 1 / -1;
-  }
-}
-
-/* Bild-Handling sauber */
-.tiles article .image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Optional: gewünschtes Seitenverhältnis/Höhe für das große Tile */
-@media screen and (min-width: 980px) {
-  .tiles > article.featured .image {
+  .tiles article.featured .image {
     display: block;
-    max-height: 420px;   /* anpassen nach Geschmack */
+    max-height: 420px;  /* nach Bedarf ändern oder entfernen */
     overflow: hidden;
   }
 }
-
